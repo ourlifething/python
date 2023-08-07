@@ -5,3 +5,7 @@ price = 1000
 price *= 1.5
 print(price)
 
+"""
+25
+1500.0
+"""
