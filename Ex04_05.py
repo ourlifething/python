@@ -26,6 +26,7 @@ print(f'平均気温：{sum(temp_new)/len(temp_new):.1f}')
 平均気温：11.6
 
 """
+#isinstance()
 
 temp_data = []
 for t in temp_new:
