@@ -7,3 +7,5 @@ for data in ages:
 		if len(samples) == num:
 			break
 print(samples)
+#[28, 20, 25, 22, 27]
+

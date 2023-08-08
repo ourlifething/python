@@ -8,6 +8,7 @@ for data in ages:
 		continue
 	samples.append(data)
 print(samples)
+#[28, 20, 25, 22]
 
 """
 instance関数
