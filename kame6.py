@@ -7,14 +7,14 @@ t2.shape('turtle')
 t2.color('red')
 
 def make_square(t):
-		for i in range(4):
-				t.forward(100)
-				t.right(90)
+	for i in range(4):
+		t.forward(100)
+		t.right(90)
 
 def make_spiral(t):
-		for i in range(36):
-				make_square(t)
-				t.right(10)
+	for i in range(36):
+		make_square(t)
+		t.right(10)
 
 make_spiral(t1)
 t2.right(5)
