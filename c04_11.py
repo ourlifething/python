@@ -10,6 +10,7 @@ for data in ages:
 print(samples)
 #[28, 20, 25, 22]
 
+
 """
 instance関数
 instance(データ、データ型)
