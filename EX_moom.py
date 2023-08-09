@@ -3,9 +3,9 @@ thickness = 1 #紙の厚さ
 count = 0 #折り曲げた回数
 
 while dist > thickness:
-		thickness *= 2
-		count += 1
+	thickness *= 2
+	count += 1
 
-		print(f'{count}回折り曲げた：厚み{thickness}')
+	print(f'{count}回折り曲げた：厚み{thickness}')
 print(f'{count}回で到着した')
 
