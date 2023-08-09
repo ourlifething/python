@@ -5,17 +5,17 @@ print(data[1][2]) #6
 
 
 data=[
-		[1, 2, 3],
-		[4, 5, 6], # , ok
+	[1, 2, 3],
+	[4, 5, 6], # , ok
 ]
 print(data)
 
 
 data = []
 for i in range(10):
-		temp = []
-		for j in range(10):
-				temp.append(0)
+	temp = []
+	for j in range(10):
+		temp.append(0)
 		data.append(temp)
 print(data) 
 
@@ -23,9 +23,9 @@ print(data)
 
 data = []
 for i in range(10):
-		temp = []
-		for j in range(10):
-				temp.append(0)
+	temp = []
+	for j in range(10):
+		temp.append(0)
 		data.append(temp)
 pprint.pprint(data) #二次元リストを綺麗に出力できる import pprint
 
@@ -53,7 +53,7 @@ print(data) # [1,2,3,1,2,3,1,2,3]
 
 data = [None] * 10 #[None,None,None,None,None,None,None,None,None,None]
 for i in range(len(data)):
-		data[i] = [0] * 10
+	data[i] = [0] * 10
 pprint.pprint(data)
 
 """
