@@ -5,9 +5,9 @@ s2 = s1[1:3] # index1~3 1以上3未満
 print(s2) #el
 
 for c in s1:
-		print(c)
+	print(c)
 for c in s1:
-		print(c,end='')
+	print(c,end='')
 
 l1 = [10, 20, 30, 40, 50]
 l2 = l1[1:4] # [20,30,40]
