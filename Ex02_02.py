@@ -11,3 +11,13 @@ avg_score = total_score / len(scores)
 
 print(f'合計{total_score}')
 print(f'平均{avg_score}')
+
+"""
+国語>>90
+算数>>80
+理科>>90
+社会>>80
+英語>>90
+合計430
+平均86.0
+"""
