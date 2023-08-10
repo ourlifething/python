@@ -4,7 +4,9 @@ if isError == False and n < 100:
 	print('ok')
 
 num = int(input('数値>>'))
-#print('偶数' if num % 2 == 0 else '奇数')
+"""三項演算子
+print('偶数' if num % 2 == 0 else '奇数')
+"""
 if num % 2 == 0:
 	print('even')
 else:
