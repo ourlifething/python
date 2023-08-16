@@ -12,3 +12,9 @@ print(scores2)
 print(scores2[0])
 print(f'要素数は{len(scores2)}')
 print(f'合計は{sum(scores2)}')
+
+#,が必要
+single_tuple = "hello",
+print(single_tuple)
+print(type(single_tuple))
+
