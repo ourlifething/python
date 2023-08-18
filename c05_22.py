@@ -1,5 +1,5 @@
 #デフォルト引数にカレーを設定した
-
+#デフォルト引数が指定された仮引数より後ろにデフォルト引数がない仮引数を定義してはならない
 def eat(breakfast, lunch, dinner = 'カレー'):
 	print(f'朝は{breakfast}を食べました')
 	print(f'昼は{lunch}を食べました')
