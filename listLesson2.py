@@ -30,3 +30,44 @@ for i in range(1,10):
 	if i % 2 == 0:
 		ls.append(i)
 """
+
+ls = [i*j for i in range(1,3) for j in range(1,3)]
+print('35',ls) # [1, 2, 2, 4]
+"""
+ls=[]
+for i in range(1,3):
+	for j in range(1,3):
+		ls.append(i*j)
+"""
+
+ls = [[i]*3 for i in range(3)]
+print(ls) # [[0, 0, 0], [1, 1, 1], [2, 2, 2]]
+"""
+ls =[]
+for i in range(3):
+	ls.append([i]*3)
+"""
+
+ls = [[i*j for j in range(3)] for i in range(3)]
+print(ls) # [[0, 0, 0], [0, 1, 2], [0, 2, 4]]
+"""
+ls =[]
+for i in range(3):
+	temp = []
+	for j in range(3):
+		temp.append(i*j)
+	ls.append(temp)
+"""
+import pprint
+ls = [[ i*j for j in range(1,10)]for i in range(1,10)]
+pprint.pprint(ls)
+
+n1,n2 = [int(i) for i in input('num>>').split(' ')]
+print(n1,n2)
+
+#3 5
+str1 = input('num>>')
+ls1 = str1.split(' ')
+a,b = [int(i) for i in ls1]
+print(a,b)
+
