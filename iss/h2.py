@@ -1,9 +1,9 @@
-import requests as req
+import requests 
 import json
 
 
 url = 'http://api.open-notify.org/iss-now.json' # web API
-res = req.get(url)
+res = requests.get(url)
 data = json.loads(res.text)
 pos = data['iss_position']
 print(f"Issの緯度は{pos['latitude']},軽度は{pos['longitude']}")

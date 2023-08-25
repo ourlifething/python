@@ -1,6 +1,7 @@
 import requests as req
 import json
 import turtle as tt
+os.environ['TK_SILENCE_DEPRECATION'] = '1'
 
 url = 'http://api.open-notify.org/iss-now.json' # web API
 screen = None;
