@@ -7,5 +7,10 @@ if 'カレー' in food:
 else:
 	print(f'私も{food}が好きですよ')
 
+day = int(input('今日は何日？＞＞'))
+if not(day in[28,30,31]):
+	print('入ってません')
+else:
+	print(f'{day}日は含まれます')
 
 
